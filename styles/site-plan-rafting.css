@@ -4,29 +4,28 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Montserrat:wght@200&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #f94144   ;
-  --secondary-color: #f3722c ;
-  --accent1-color: #43aa8b;
-  --accent2-color: #277da1;
+  --primary-color: #f4f1de   ;
+  --secondary-color: #e07a5f ;
+  --accent1-color: #3d405b;
+  --accent2-color: #41edb9d9;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Edu SA Beginner";
   --paragraph-font: Montserrat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #f3722c;  /* headlines on a white background */ 
+  --headline-color-on-white: #ebc6b2;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #43aa8b; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #3d405b; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #43aa8b  ;
+  --paragraph-background-color: #3d405b  ;
   --nav-link-color: white;
-  --nav-background-color: #43aa8b;
+  --nav-background-color: #3d405b;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #f94144;
+  --nav-hover-background-color: #f3109c97;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 960px;
   margin: 0 auto;
