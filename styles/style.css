@@ -11,7 +11,7 @@ nav a {
     text-decoration: none;
 }
 
-#hero-msg h1, #hero-msg h4 {
+hero-msg h1, hero-msg h4 {
     text-align: center;
     width: 100px;
 }    
@@ -27,8 +27,8 @@ main section {
 /*the space under the mountain picture*/
 #background {
     height: 725px;
-    width: 50%;
-    background-color:#f4f1de;
+    width: 100%;
+    background-color:#3d405b;
     color:#41edb9d9;
 }
 
@@ -103,6 +103,7 @@ footer a{
 footer a:hover {
     color:#3d405b;
     background-color: #41edb9d9;
+    
 }
 
 .logo {
@@ -119,8 +120,9 @@ footer a:hover {
 
 
 footer p {
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
 footer p a:hover { 
     text-decoration: underline;
 }
+
