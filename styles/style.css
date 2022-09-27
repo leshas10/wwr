@@ -40,6 +40,7 @@ main section img {
     width: 100%;
     background-color:#3d405b;
     color:#41edb9d9;
+    margin-bottom: 50px;
 }
 
 body {
@@ -82,11 +83,17 @@ nav a:hover {
     color:#3D405B;
     line-height: 1.5em;
     padding: 35px;
+   
 
 }
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+}
+.mountains {
+    width: 50%;
+    /*padding: 25px;  adds a frame around the picture with a border*/
+    margin-top: 10px;
 }
 footer{
     background-color: #e07a5f; 
@@ -156,11 +163,13 @@ footer h3{
 footer a{
     color: #41edb9d9;
     text-decoration: none;
+  
 }
 
 footer a:hover {
     color:#3d405b;
     background-color: #41edb9d9;
+
     
 }
 
@@ -171,6 +180,8 @@ footer a:hover {
     width: 80px;
     padding-top: 10px;
 }
+
+
 
 #hero-img  {
     width: 100%;
