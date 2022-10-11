@@ -275,6 +275,217 @@ footer p a:hover {
     
 }
 
+.rivers-grid{
+   
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(11, 1fr);
+    margin: 0 auto;
+   
+    /*font-size: 22px;*/
+}
+
+    
+/*.msg2 {
+
+    background-color: #f4F1De;
+    color: #3D405B;
+    line-height: 1.5em;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    margin: -50px;
+}
+
+*/
+.card2-img {
+    border: 10px solid #3d405b;
+    width: 100%;
+    /*transition: transform .5s;
+    box-shadow: 5px 5px 10px #b4b1cf;*/
+    
+    
+}
+.grand-canyon{
+    width: 400%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #b4b1cf;
+    align-self: center;
+}
+/*.msg2 {
+ 
+    grid-column: 5/10;
+    grid-row: 2/3;
+    border: 5px solid #E07a5f;
+    font-size: 15px;
+    
+    
+}
+*/
+.salmon-river{
+    width: 400%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    box-shadow: 5px 5px 10px #b4b1cf;
+    align-self: center;
+   
+}
+.flip-card-grand {
+    background-color: #3d405b;
+    grid-column: 6/11;
+    grid-row:2/3 ;
+    border: 5px solid #E07a5f;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}
+.flip-card-inner-grand{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card-grand:hover .flip-card-inner-grand {
+    transform: rotateY(180deg);
+
+}
+.flip-card-front-grand, .flip-card-back-grand {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front-grand {
+    background-color: #E07a5f;
+    color:#f4F1De;
+    align-self: center;
+    font-size: 15px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back-grand {
+    background-color: #e07a5f;
+    color: #f4F1De;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 15px;
+
+  }
+
+.flip-card {
+    background-color: #3D405B;
+    grid-column: 6/11;
+    grid-row:4/5 ;
+    border: 5px solid #E07a5f;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    
+}
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #E07a5f;
+    color:#f4F1De;
+    align-self: center;
+    font-size: 15px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #e07a5f;
+    color: #f4F1De;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 15px;
+
+  }
+
+.desolation{
+   width: 400%;
+    grid-column: 2/3;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #b4b1cf;
+    align-self: center;
+} 
+/*.msg4 {
+ 
+    grid-column: 5/10;
+    grid-row: 6/7;
+    border: 5px #E07a5f;
+    border: 5px solid #E07a5f;
+    
+}*/
+.flip-card-deso {
+    background-color: #3d405b;
+    grid-column: 6/11;
+    grid-row:6/7 ;
+    border: 5px solid #E07a5f;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}
+
+.flip-card-inner-deso{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card-deso:hover .flip-card-inner-deso {
+    transform: rotateY(180deg);
+
+}
+.flip-card-front-deso, .flip-card-back-deso {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front-deso {
+    background-color: #E07a5f;
+    color:#f4F1De;
+    align-self: center;
+    font-size: 15px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back-deso {
+    background-color: #e07a5f;
+    color: #f4F1De;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 15px;
+  }
 
 
 /*don't add anything after this media query*/
